@@ -1,0 +1,109 @@
+.macbook-air {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .macbook-air .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1600px;
+    height: 832px;
+  }
+  
+  .macbook-air .overlap {
+    position: relative;
+    height: 832px;
+    background-image: url('https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif?cid=ecf05e47938hws6q2aecjher1lrf9tr8nq76m0t9l9ukgs47&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .macbook-air .group {
+    position: absolute;
+    width: 776px;
+    height: 171px;
+    top: 245px;
+    left: 252px;
+  }
+  
+  .macbook-air .div {
+    position: relative;
+    width: 778px;
+    height: 171px;
+  }
+  
+  .macbook-air .overlap-group {
+    position: absolute;
+    width: 776px;
+    height: 70px;
+    font-size: 75%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: #2c7c877a;
+    border-radius: 39px;
+    font-size: z=50%;
+    box-shadow: 0px 4px 73px 5px #022220;
+  }
+  
+  .group .overlap-button{
+    margin-top: 20%;
+    margin-left : 40%;
+    height : 15vh;
+    width : 15vw;
+    background-color: lightblue;
+    font-size: large;
+    border-radius: 15%;
+    box-shadow: 0px 4px 73px 5px #022220;
+}
+
+  .macbook-air .text-wrapper {
+    position: absolute;
+    height: 54px;
+    top: 8px;
+    left: 36px;
+    font-family: "Inter-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 45px;
+    letter-spacing: -0.77px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .macbook-air .overlap-group-wrapper {
+    position: absolute;
+    width: 778px;
+    top: 101px;
+    left: 0;
+  }
+  
+  
+  
+  .macbook-air .text-wrapper-2 {
+    position: absolute;
+    height: 54px;
+    top: 58px;
+    left: 47px;
+    font-family: "Inter-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 45px;
+    letter-spacing: -0.77px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .macbook-air .rectangle {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 480px;
+    left: 277px;
+    background-color: #2c7c877a;
+  }
+  
