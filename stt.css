@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media3.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif?cid=ecf05e47938hws6q2aecjher1lrf9tr8nq76m0t9l9ukgs47&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+}
+
+input[type="file"] {
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.btn-container {
+    text-align: center;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.cancel {
+    background-color: #ccc;
+}
